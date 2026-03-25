@@ -159,8 +159,8 @@ WHERE p.date_of_birth > '1990-01-01';
 ![Screenshot](join8.png)
 
 **Question 8**
----
-![Screenshot](join8que.png)
+<img width="788" height="636" alt="image" src="https://github.com/user-attachments/assets/61d4b226-bf54-4e5f-b74a-9548d4e9707e" />
+
 
 ```sql
 SELECT t.*
@@ -172,11 +172,13 @@ WHERE p.first_name = 'Alice';
 
 **Output:**
 
-![Screenshot](8ans.png)
+<img width="837" height="435" alt="image" src="https://github.com/user-attachments/assets/7ab1c384-537a-4245-8acc-e203f9d85b49" />
+
 
 **Question 9**
 ---
-![Screenshot](9que.png)
+<img width="813" height="676" alt="image" src="https://github.com/user-attachments/assets/38b1e606-cd00-4d9c-ab0a-9b3ee887c1b5" />
+
 
 ```sql
 SELECT p.first_name AS patient_name, a.*
@@ -186,12 +188,13 @@ ON p.patient_id = a.patient_id;
 ```
 
 **Output:**
+<img width="832" height="554" alt="image" src="https://github.com/user-attachments/assets/7d14d56a-2201-4fb3-b68d-4b266d1e7d07" />
 
-![Screenshot](9ans.png)
 
 **Question 10**
 ---
-![Screenshot](10que.png)
+<img width="861" height="575" alt="image" src="https://github.com/user-attachments/assets/20cd59c9-0a9d-4d17-b54b-d145562cd9c3" />
+
 
 ```sql
 SELECT c.cust_name, s.name
@@ -203,7 +206,8 @@ WHERE c.city = s.city;
 
 **Output:**
 
-![Screenshot](10ans.png)
+<img width="761" height="523" alt="image" src="https://github.com/user-attachments/assets/785b5424-3a63-4e62-b501-9177cd4c2698" />
+
 
 
 ## RESULT
